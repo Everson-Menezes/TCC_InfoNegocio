@@ -1,7 +1,7 @@
 ﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification\ 
 for details on configuring this project to bundle and minify static web assets. */
 body {
-    padding-top: 20px;
+    padding-top: 0px;
     padding-bottom: 20px;
 }
 
@@ -18,10 +18,15 @@ body {
     margin: 15px;
 }
 /*Navbar style starts here*/
-.menu-superior{
-    position:relative;
-    top: -20px;
+#barra-brasil {
+    position: relative;
+    top: 0px;
 }
+
+.menu-superior {
+    top: 10px;
+}
+
 #login-dp {
     min-width: 250px;
     padding: 14px 14px 0;
