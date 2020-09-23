@@ -1,0 +1,96 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification\ 
+for details on configuring this project to bundle and minify static web assets. */
+body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+
+/* QR code generator */
+#qrCode {
+    margin: 15px;
+}
+/*Navbar style starts here*/
+.menu-superior{
+    position:relative;
+    top: -20px;
+}
+#login-dp {
+    min-width: 250px;
+    padding: 14px 14px 0;
+    overflow: hidden;
+    background-color: gainsboro;
+}
+
+    #login-dp .help-block {
+        font-size: 12px
+    }
+
+    #login-dp .bottom {
+        background-color: lightgray;
+        border-top: 3px solid #ddd;
+        clear: both;
+        padding: 14px;
+    }
+
+    #login-dp .social-buttons {
+        margin: 12px 0
+    }
+
+        #login-dp .social-buttons a {
+            width: 49%;
+        }
+
+    #login-dp .form-group {
+        margin-bottom: 10px;
+    }
+
+.btn-fb {
+    color: #fff;
+    background-color: #3b5998;
+}
+
+    .btn-fb:hover {
+        color: black;
+        background-color: #496ebc
+    }
+
+.btn-gg {
+    color: #fff;
+    background-color: #ff7f50;
+}
+
+    .btn-gg:hover {
+        color: black;
+        background-color: #ff6e38;
+    }
+
+@media(max-width:768px) {
+    #login-dp {
+        background-color: inherit;
+        color: #fff;
+    }
+
+        #login-dp .bottom {
+            background-color: inherit;
+            border-top: 0 none;
+        }
+}
+/*Navbar style starts here*/
+
+/*Style Home starts here*/
+.bg-image{
+    width:auto;
+    height:auto;
+}
+#img-bg-home {
+    max-width: 100%;
+}
+/*Style Home ends here*/
